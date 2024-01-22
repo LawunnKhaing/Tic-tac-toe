@@ -12,10 +12,10 @@ code {
     monospace;
 }
 
-
 .board-row {
   display: flex;
 }
+
 
 .square {
   font-size: 24px;
@@ -33,4 +33,36 @@ code {
 
 .square:hover {
   background-color: #e6e6e6;
+}
+
+/* Style for the status message */
+.status {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style for the game info container */
+.game-info {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
 }
